@@ -15,6 +15,6 @@ public class MotorPractice extends OpMode {
 
     @Override
     public void loop() {
-        bench.setMotorSpeed(0.5);
+        bench.setMotorSpeed(gamepad1.left_stick_y);
     }
 }
